@@ -32,6 +32,8 @@ class LayoutProcessor
                 'component' => 'SendCloud_SendCloud/js/view/shipping-rates-validation'
             ];
 
+            $jsLayout['components']['checkout']['children']['steps']['children']['shipping-step']['children']['custom-address-provider']['component'] => 'SendCloud_SendCloud/js/view/register-processors';
+
             $jsLayout['components']['checkout']['children']['steps']['children']['shipping-step']['children']['shippingAddress']['component'] = 'SendCloud_SendCloud/js/view/shipping';
             $jsLayout['components']['checkout']['children']['steps']['children']['shipping-step']['children']['shippingAddress']['children']['shippingAdditional'] = [
                 'component' => 'uiComponent',
